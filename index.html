@@ -13,11 +13,12 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Портфолио</title>
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar container">
       <img src="./images/icon/logo.svg" alt="logo" />
       <nav class="navigation">
         <ul class="nav-list">
@@ -28,5 +29,26 @@
         </ul>
       </nav>
     </div>
+    <!-- ./navbar -->
+     <header class="header container">
+      <img src="images/image/ava.png" alt="ava" class="header-photo">
+      <div class="header-text">
+        <strong class="header-strong">Привет 👋</strong>
+        <h1 class="header-heading"><span class="header-primary">Я фронтенд-разработчик и веб-дизайнер</span><br>Меня зовут Monika и я делаю<br> сайты для людей и компаний</h1>
+        <div class="header-links">
+          <ul class="social-list">
+            <li class="social-item"><a href="images/icon/Icons/linkedin.svg" class="social-link"><img src="" alt="linkedin" class="social-logo"></a></li>
+            <li class="social-item"><a href="images/icon/Icons/twitter.svg" class="social-link"><img src="" alt="twitter" class="social-logo"></a></li>
+            <li class="social-item"><a href="images/icon/Icons/github.svg" class="social-link"><img src="" alt="github" class="social-logo"></a></li>
+            <li class="social-item"><a href="images/icon/Icons/stackoverflow.svg" class="social-link"><img src="stackFlow" alt="" class="social-logo"></a></li>
+            <li class="social-item"><a href="images/icon/Icons/youtube.svg" class="social-link"><img src="" alt="youtube" class="social-logo"></a></li>
+          </ul>
+          <a href="#" class="cv-download" download>
+            <img src="images/icon/Icons/scr.svg" alt="download" class="cv-icon">
+            <span class="cv-text">Скачать резюме</span>
+          </a>
+        </div>
+      </div>
+     </header>
   </body>
 </html>
